@@ -77,16 +77,6 @@ This application aims to make the initial stages of model building and evaluatio
         # On macOS/Linux:
         # source venv/bin/activate
         ```
-    * Create a `requirements.txt` file in the same directory as `main.py` with the following content:
-        ```txt
-        streamlit
-        pandas
-        numpy
-        scikit-learn
-        plotly
-        joblib
-        imbalanced-learn
-        ```
     * Install the required dependencies:
         ```bash
         pip install -r requirements.txt
